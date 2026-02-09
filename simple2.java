@@ -7,5 +7,6 @@ public class simple2 {
     System.out.println("hello");
 
 System.err.println("hello");
+System.out.println("hello");
     }
 }

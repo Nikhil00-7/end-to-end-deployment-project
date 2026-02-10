@@ -13,7 +13,5 @@ System.out.println(
 );
 
 System.out.println("revert failed");
-
-System.out.println("second mistake");
     }
 }

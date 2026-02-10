@@ -8,5 +8,8 @@ public class simple2 {
 
 System.err.println("hello");
 System.out.println("hello");
+System.out.println(
+"Hello nikhil"
+);
     }
 }

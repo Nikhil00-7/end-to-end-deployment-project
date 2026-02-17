@@ -9,6 +9,7 @@ from weather_service import (
     generate_ai_summary
 )
 
+
 app = FastAPI()
 
 
@@ -29,6 +30,7 @@ def current_weather(city: str = Query(...)):
 
 @app.get("/weather/forecast")
 def forecast_weather(city: str = Query(...)):
+    print("hello world")
     return {"forecast": get_forecast(city)}
 
 
